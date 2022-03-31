@@ -42,10 +42,13 @@ header .navbar .nav-link::after {
 
 /* JUMBOTRON */
 .ms_jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+}
+
+.ms_generic-banner {
     height: 100vh;
     margin-top: 123px;
     padding-top: 20rem;
-    background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-position-x: center;
     color: white;
@@ -54,4 +57,13 @@ header .navbar .nav-link::after {
 /* JUMBOTRON GAMES */
 .jumbo-games img {
     border-radius: 1rem;
+}
+
+/* MEGA BANNER */
+.ms_jumbo-2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.ms_generic-banner.ms_jumbo-2 {
+    padding-top: 5rem;
 }
