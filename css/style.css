@@ -16,6 +16,31 @@ img {
     margin: 0 auto;
 }
 
+.ms_generic-banner {
+    height: 100vh;
+    margin-top: 123px;
+    padding-top: 20rem;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    color: white;
+}
+
+/* card */
+.card {
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.card-img, .card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.card-body {
+    padding: 1rem 0;
+}
+
 /* HEADER */
 header {
     position: fixed;
@@ -54,15 +79,6 @@ header .navbar .nav-link::after {
     background-image: url(../img/jumbo-bg.png);
 }
 
-.ms_generic-banner {
-    height: 100vh;
-    margin-top: 123px;
-    padding-top: 20rem;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    color: white;
-}
-
 /* JUMBOTRON GAMES */
 .jumbo-games img {
     border-radius: 1rem;
@@ -78,23 +94,13 @@ header .navbar .nav-link::after {
 }
 
 /* NEW RELEASE */
-.ms_new-release{
+.ms_new-release {
     color: white;
     background-color: var(--gray);
 }
 
-.card {
-    border: none;
-    border-radius: 0;
-    background-color: transparent;
-}
-
-.card-img, .card-img-top {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+.ms_new-release .card-img, 
+.ms_new-release .card-img-top {
     border-radius: 1.5rem;
 }
 
-.card-body {
-    padding: 1rem 0;
-}
