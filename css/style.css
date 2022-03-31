@@ -3,6 +3,11 @@ img {
     width: 100%;
 }
 
+.ms_container {
+    width: 95%;
+    margin: 0 auto;
+}
+
 /* HEADER */
 header {
     position: fixed;
@@ -17,6 +22,7 @@ header {
 
 .ms_sony-header img {
     height: 15px;
+    width: auto;
     margin: 1rem;
 }
 
@@ -35,14 +41,17 @@ header .navbar .nav-link::after {
 }
 
 /* JUMBOTRON */
-.jumbotron {
+.ms_jumbotron {
     height: 100vh;
     margin-top: 123px;
-    padding-left: 2rem;
-    padding-top: 23rem;
+    padding-top: 20rem;
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-position-x: center;
     color: white;
 }
 
+/* JUMBOTRON GAMES */
+.jumbo-games img {
+    border-radius: 1rem;
+}
