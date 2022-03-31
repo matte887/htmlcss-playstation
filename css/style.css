@@ -3,7 +3,7 @@
     /* Colors */
     --gray: #1f1f1f;
     --beige: #bebcbb;
-    --blue: ;
+    --blue: #161c3b;
     --footer-color: ;
 }
 
@@ -108,4 +108,10 @@ header .navbar .nav-link::after {
 /* PLAYSTATION PLUS */
 .playstation-plus {
     background-color: var(--beige);
+}
+
+/* PLAYSTATION NOW */
+.playstation-now {
+    background-color: var(--blue);
+    color: white;
 }
