@@ -1,5 +1,7 @@
 /* COMMON */
-
+img {
+    width: 100%;
+}
 
 /* HEADER */
 header {
@@ -31,3 +33,16 @@ header .navbar .nav-link a::after {
     margin-left: 1rem;
     vertical-align: -webkit-baseline-middle;
 }
+
+/* JUMBOTRON */
+.jumbotron {
+    height: 100vh;
+    margin-top: 123px;
+    padding-left: 2rem;
+    padding-top: 23rem;
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    color: white;
+}
+
