@@ -158,6 +158,35 @@ header .navbar .nav-link::after {
     transition: all .3s;
 }
 
+/* PS5 */
+#ms_ps-active {
+    border-bottom: 3px solid #2687d5;
+}
+
+.ms_accessories img {
+    width: 50%;
+}
+
+.ms_accessories,
+#ps5-wrapper {
+    text-align: center;
+}
+
+.ms_opacity-50 {
+    opacity: 50%;
+
+}
+
+.ms_opacity-50:hover {
+    opacity: 100%;
+    transition: .3s;
+}
+
+.ps5-wrapper:hover {
+    border-bottom: 3px solid #2687d5;
+    transition: .3s;
+}
+
 /* MEGA BANNER */
 .ms_jumbo-2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -183,10 +212,26 @@ header .navbar .nav-link::after {
     background-color: var(--beige);
 }
 
+.ms_btn-transparent {
+    background-color: rgba(255, 255, 255, .5);
+    color: var(--btn-blue);
+}
+
 /* PLAYSTATION NOW */
 .playstation-now {
     background-color: var(--blue);
     color: white;
+}
+
+.ms_btn-white {
+    background-color: white;
+    color: var(--blue);
+}
+
+.ms_btn-white:hover {
+    color: var(--blue);
+    background-color: white;
+    outline-color: var(--blue);
 }
 
 /* FOOTER */
