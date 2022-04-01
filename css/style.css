@@ -146,6 +146,27 @@ header .navbar .nav-link::after {
     border-radius: 1rem;
 }
 
+#active {
+    outline: 4px solid var(--btn-blue);
+    outline-offset: 4px;
+}
+
+.ms_go-up {
+    position: relative;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.ms_go-up:hover {
+    animation-name: go-up;
+}
+
+@keyframes go-up {
+    from {bottom: 0;}
+    to {bottom: 20px}
+}
+
 /* MEGA BANNER */
 .ms_jumbo-2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
