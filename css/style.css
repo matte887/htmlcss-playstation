@@ -4,7 +4,21 @@
     --gray: #1f1f1f;
     --beige: #bebcbb;
     --blue: #161c3b;
-    --footer-color: ;
+    --footer-color: #00439c;
+}
+
+/* RESET */
+img {
+    width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
 
 /* COMMON */
@@ -12,12 +26,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
-    width: 100%;
-}
-
 .ms_container {
     width: 95%;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -27,6 +38,7 @@ img {
     padding-bottom: 5rem;
     background-repeat: no-repeat;
     background-position-x: center;
+    background-size: cover;
     color: white;
 }
 
@@ -122,4 +134,24 @@ header .navbar .nav-link::after {
 .playstation-now {
     background-color: var(--blue);
     color: white;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--footer-color);
+    color: white;
+    font-size: .8rem;
+}
+
+#play-logo-footer {
+    width: 100px;
+}
+
+#globe {
+    width: 20px;
+}
+
+#sony-logo-footer {
+    height: 50px;
+    width: auto;
 }
