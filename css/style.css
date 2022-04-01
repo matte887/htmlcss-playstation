@@ -89,10 +89,16 @@ header .navbar .nav-link::after {
     vertical-align: middle;
 }
 
-.fa-search {
-    font-size: 1.5rem;
-    margin-left: 1rem;
-    vertical-align: -webkit-baseline-middle;
+.btn-dark {
+    color: white;
+    background-color: #363636;
+}
+
+.btn-dark:hover {
+    outline-offset: 2px;
+    outline: 2px solid #363636;
+    background-color: #363636;
+    border-color: #363636;
 }
 
 /* JUMBOTRON */
