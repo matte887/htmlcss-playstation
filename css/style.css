@@ -152,19 +152,14 @@ header .navbar .nav-link::after {
 }
 
 .ms_go-up {
-    position: relative;
-    animation-duration: .3s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease;
+    transition: all .3s;
+    transition-timing-function: ease;
 }
 
 .ms_go-up:hover {
-    animation-name: go-up;
-}
-
-@keyframes go-up {
-    from {bottom: 0;}
-    to {bottom: 20px}
+    animation-direction:alternate;
+    transform: translate(0, -20px);
+    transition: all .3s;
 }
 
 /* MEGA BANNER */
@@ -182,7 +177,7 @@ header .navbar .nav-link::after {
     background-color: var(--gray);
 }
 
-.ms_new-release .card-img, 
+.ms_new-release .card-img,
 .ms_new-release .card-img-top {
     border-radius: 1.5rem;
 }
