@@ -182,7 +182,11 @@ header .navbar .nav-link::after {
     transition: .3s;
 }
 
-.ps5-wrapper:hover {
+.ps5 .ps5_active {
+    border-bottom: 3px solid transparent;
+}
+
+.ps5 .ps5_active:hover {
     border-bottom: 3px solid #2687d5;
     transition: .3s;
 }
@@ -205,6 +209,11 @@ header .navbar .nav-link::after {
 .ms_new-release .card-img,
 .ms_new-release .card-img-top {
     border-radius: 1.5rem;
+}
+
+/* PS4 EXPLORE */
+.ps4 .card p {
+    min-height: 50px;
 }
 
 /* PLAYSTATION PLUS */
