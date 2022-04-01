@@ -5,6 +5,8 @@
     --beige: #bebcbb;
     --blue: #161c3b;
     --footer-color: #00439c;
+    --btn-red: #cd3d0f;
+    --btn-blue: #2d64e6;
 }
 
 /* RESET */
@@ -44,6 +46,11 @@ body {
 
 main>section {
     margin-top: 3rem;
+}
+
+.ms_btn {
+    padding: .7rem 1rem;
+    border-radius: 50rem;
 }
 
 /* card */
@@ -89,13 +96,14 @@ header .navbar .nav-link::after {
     vertical-align: middle;
 }
 
-.btn-dark {
+.ms_btn-dark {
     color: white;
     background-color: #363636;
+    outline-offset: 2px;
 }
 
-.btn-dark:hover {
-    outline-offset: 2px;
+.ms_btn-dark:hover {
+    color: white;
     outline: 2px solid #363636;
     background-color: #363636;
     border-color: #363636;
@@ -104,6 +112,33 @@ header .navbar .nav-link::after {
 /* JUMBOTRON */
 .ms_jumbotron {
     background-image: url(../img/jumbo-bg.png);
+}
+
+/* MAIN */
+/* common */
+.ms_btn-red {
+    color: white;
+    background-color: var(--btn-red);
+    border: 2px solid var(--btn-red);
+    outline-offset: 2px;
+}
+
+.ms_btn-red:hover {
+    color: white;
+    outline: 2px solid var(--btn-red);
+    background-color: var(--btn-red);
+    border: 2px solid transparent;
+}
+
+.ms_btn-blue {
+    background-color: var(--btn-blue);
+    color: white;
+    outline-offset: 2px;
+}
+
+.ms_btn-blue:hover {
+    outline: 2px solid var(--btn-blue);
+    color: white;
 }
 
 /* JUMBOTRON GAMES */
