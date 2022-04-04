@@ -327,6 +327,15 @@ header {
     background-color: var(--beige);
 }
 
+@media (min-width: 768px) {
+    .playstation-plus {
+        background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 95%;        
+    }
+}
+
 .ms_btn-transparent {
     background-color: rgba(255, 255, 255, .5);
     color: var(--btn-blue);
