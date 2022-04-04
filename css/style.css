@@ -328,7 +328,7 @@ header {
 }
 
 @media (min-width: 768px) {
-    .playstation-plus {
+    .playstation-plus .ms_container {
         background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
         background-repeat: no-repeat;
         background-size: contain;
