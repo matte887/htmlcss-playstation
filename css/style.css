@@ -270,6 +270,16 @@ header {
     }
 }
 
+#ms_mt-3 {
+    margin-top: 3rem;
+}
+
+@media (min-width: 767.98px) {
+    #ms_mt-3 {
+        margin-top: 0;
+    }
+}
+
 /* MEGA BANNER */
 .ms_jumbo-2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
