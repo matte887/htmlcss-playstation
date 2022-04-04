@@ -34,6 +34,17 @@ body {
     margin: 0 auto;
 }
 
+.h2, h2 {
+    font-size: calc(2rem + .9vw);
+    margin-bottom: 1.5rem;
+}
+
+@media all and (min-width: 1200px) {
+    .h2, h2 {
+        font-size: 3rem;
+    }
+}
+
 .ms_generic-banner {
     margin-top: 123px;
     padding-top: 20rem;
@@ -97,6 +108,10 @@ header {
 }
 
 /* header-bottom */
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
 /* header-bottom: dropdown-menu */
 .dropdown-toggle::after {
     display: none;
@@ -240,6 +255,12 @@ header {
 .ps5 .ps5_active:hover {
     border-bottom: 3px solid #2687d5;
     transition: .3s;
+}
+
+@media all and (max-width: 767.98px) {
+    #ps5-console {
+        margin-top: 2rem;
+    }
 }
 
 /* MEGA BANNER */
