@@ -310,7 +310,6 @@ header {
 
 .ms_new-release .card:hover img {
     transform: scale(1.05);
-    transition-timing-function: ease;
 }
 
 /* PS4 EXPLORE */
