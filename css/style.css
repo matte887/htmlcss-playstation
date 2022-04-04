@@ -159,10 +159,6 @@ header .navbar .nav-link::after {
 }
 
 /* PS5 */
-#ms_ps-active {
-    border-bottom: 3px solid #2687d5;
-}
-
 .ms_accessories img {
     width: 50%;
 }
@@ -172,14 +168,17 @@ header .navbar .nav-link::after {
     text-align: center;
 }
 
-.ms_opacity-50 {
+.ps5_active img {
     opacity: 50%;
-
 }
 
-.ms_opacity-50:hover {
+.ps5_active:hover img {
     opacity: 100%;
     transition: .3s;
+}
+
+#ms_ps-active {
+    border-bottom: 3px solid #2687d5;
 }
 
 .ps5 .ps5_active {
