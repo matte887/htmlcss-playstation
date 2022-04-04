@@ -204,6 +204,11 @@ header {
     color: white;
 }
 
+.ms_text-grey {
+    opacity: .5;
+    font-size: 1.25rem;
+}
+
 /* JUMBOTRON GAMES */
 .jumbo-games img {
     border-radius: 1rem;
@@ -288,6 +293,10 @@ header {
     min-height: 50px;
 }
 
+.ps4 h2 span.fs-4 {
+    vertical-align: super;
+}
+
 /* PLAYSTATION PLUS */
 .playstation-plus {
     background-color: var(--beige);
@@ -319,7 +328,6 @@ header {
 footer {
     background-color: var(--footer-color);
     color: white;
-    font-size: .8rem;
 }
 
 #play-logo-footer {
@@ -333,4 +341,9 @@ footer {
 #sony-logo-footer {
     height: 50px;
     width: auto;
+    margin-bottom: 1rem;
+}
+
+footer .col li a {
+    line-height: 2rem;
 }
