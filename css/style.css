@@ -220,14 +220,12 @@ header {
 }
 
 .ms_go-up {
-    transition: all .3s;
-    transition-timing-function: ease;
+    transition: all .2s;
 }
 
-.ms_go-up:hover {
-    animation-direction:alternate;
+.jumbo-games .col:hover .ms_go-up{
     transform: translate(0, -20px);
-    transition: all .3s;
+    transition-timing-function: ease;
 }
 
 /* PS5 */
@@ -253,11 +251,15 @@ header {
     border-bottom: 3px solid #2687d5;
 }
 
+.ms_accessories a {
+    display: block;
+}
+
 .ps5 .ps5_active {
     border-bottom: 3px solid transparent;
 }
 
-.ps5 .ps5_active:hover {
+.ps5 .ps5_active:hover{
     border-bottom: 3px solid #2687d5;
     transition: .3s;
 }
@@ -286,6 +288,19 @@ header {
 .ms_new-release .card-img,
 .ms_new-release .card-img-top {
     border-radius: 1.5rem;
+}
+
+.ms_new-release a {
+    color: inherit;
+}
+
+.ms_new-release .card img {
+    transition: all .2s;
+}
+
+.ms_new-release .card:hover img {
+    transform: scale(1.05);
+    transition-timing-function: ease;
 }
 
 /* PS4 EXPLORE */
