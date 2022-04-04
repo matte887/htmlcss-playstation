@@ -81,7 +81,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    right: 0;
     z-index: 1;
 }
 
@@ -95,12 +95,55 @@ header {
     margin: 1rem;
 }
 
-header .navbar .nav-link::after {
-    display: inline-block;
-    content: url(../img/chevron-down-solid.svg);
-    width: 0.6rem;
-    margin-left: 0.4em;
-    vertical-align: middle;
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-toggle img {
+    width: 10px;
+    height: auto;
+}
+
+.ms_play-model {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.ms_play-model img {
+    height: 5rem;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.ms_header-games {
+    display: flex;
+    padding-inline-start: 0;
+}
+
+.ms_header-games li::before {
+    content: "\2022";
+    color: #0a58ca;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+.dropdown-menu[data-bs-popper] {
+    right: 0;
+    margin-top: 0;
+}
+
+.dropdown-menu {
+    text-align: center;
+    border: none;
+    border-radius: 0;
+}
+
+.nav-item.dropdown {
+    position: initial;
 }
 
 .ms_btn-dark {
@@ -111,6 +154,10 @@ header .navbar .nav-link::after {
 .ms_btn-dark:hover {
     color: white;
     outline-color: white;
+}
+
+.nav-link:focus img {
+    transform: rotate(180deg);
 }
 
 /* JUMBOTRON */
